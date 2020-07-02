@@ -32,7 +32,7 @@ new flake-based nixos-container like this:
 
 ```
 $ sudo nixos-container create mycontainer \
-  --flake "github:jktr/nixos-container-example-flakes \
+  --flake "github:jktr/nixos-container-example-flakes" \
     && sudo nixos-container start mycontainer
 ```
 
